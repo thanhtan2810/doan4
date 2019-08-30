@@ -1,0 +1,83 @@
+.box{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, 50%);
+ background-color: #FB8C0A;
+ height: 40px;
+ border-radius: 40px;
+ padding: 10px;
+}
+.input_box {
+ border: none;
+ outline: none;
+ background:none;
+ float: left;
+ padding: 0;
+ color: #ffff;
+ font-size: 16px;
+ transition: 0.4s all;
+ line-height: 40px;
+ width: 0px;
+
+}
+.btn {
+ color: #F5BB09;
+ float: right;
+ text-decoration: none;
+ width: 40px;
+ height: 40px;
+ line-height: 40px;
+ text-align: center;
+ border-radius: 50%;
+
+}
+.box:hover .input_box {
+ width: 240px;
+ padding: 0 6px;
+
+}
+.box:hover .btn {
+ background-color: #fff;
+}.box{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, 50%);
+ background-color: #fbc531;
+ height: 40px;
+ border-radius: 40px;
+ padding: 10px;
+}
+.input_box {
+ border: none;
+ outline: none;
+ background:none;
+ float: left;
+ padding: 0;
+ color: #ffff;
+ font-size: 16px;
+ transition: 0.4s all;
+ line-height: 40px;
+ width: 0px;
+
+}
+.btn {
+ color: #fbc531;
+ float: right;
+ text-decoration: none;
+ width: 40px;
+ height: 40px;
+ line-height: 40px;
+ margin-bottom: 10px
+ border-radius: 50%;
+
+}
+.box:hover .input_box {
+ width: 100px;
+ padding: 0 6px;
+
+}
+.box:hover .btn {
+ background-color: #fff;
+}
